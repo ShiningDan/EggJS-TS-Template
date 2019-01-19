@@ -1,0 +1,39 @@
+{
+  "compileOnSave": true,
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+
+    "inlineSourceMap": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": false,
+
+    "sourceMap": false,
+    "importHelpers": false,
+    "declaration": false,
+    "removeComments": false,
+    "noEmitOnError": false,
+    "moduleResolution": "node",
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "skipLibCheck": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "pretty": true
+  }
+}
